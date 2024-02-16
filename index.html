@@ -1,47 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
     <title>PentaQube</title>
-    <style>
-        body {
-            background-color: #E5E5E5;
-            margin: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: flex-start; /* Align items at the top */
-            height: 100vh;
-        }
 
-        #logo {
-                    max-width: 100%;
-                    max-height: 60px; /* Adjust this value as needed */
-                    height: auto;
-                    margin-top: 25vh; /* Adjust this value for about a fourth of the way down */
-                }
-
-        #construction-text {
-            color: #046E8F;
-            font-size: 24px;
-            font-family: 'Open Sans', sans-serif;
-            font-weight: 800; /* Extra Bold */
-            margin-top: 40px;
-            margin-bottom: 5px;
-        }
-        #construction-text-2 {
-            color: #046E8F;
-            font-size: 24px;
-            font-family: 'Open Sans', sans-serif;
-            font-weight: 800; /* Extra Bold */
-            margin-top: 5px;
-        }
-    </style>
 </head>
+
 <body>
-    <img src="pentaqube.png" alt="Logo" id="logo">
-    <p id="construction-text">It takes talent, thought & time to brew the perfect Qube.</p>
-    <p id="construction-text-2">but we're nearly there.</p>
+    <div class="container">
+        <div class="header-bar"></div>
+
+        <div class="content-block">
+            <a href="index.html"><img class="logo" src="pentaqube.png" alt="Logo" /></a>
+            <p class="intro-text">Cybersecurity with a difference.</p>
+            <div class="content-1">
+                <svg class="icon" viewBox="0 0 79 87" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_8_10)">
+                        <path
+                            d="M78.145 44.9583C77.1349 43.3128 75.3462 42.3287 73.361 42.3287H63.6794C63.7812 40.7217 63.819 39.3909 63.8309 38.4358C63.8393 37.5281 63.1528 36.792 62.3267 36.792H2.21989C1.39471 36.792 0.706957 37.5263 0.718513 38.4358C0.80378 45.5392 2.46038 73.553 23.0783 80.3754H3.76218C2.54128 80.3754 1.18701 81.3915 0.745374 82.6469L0.142576 84.355C-0.301246 85.6091 0.325601 86.6265 1.54994 86.6265H62.9938C64.2154 86.6265 64.8453 85.6087 64.4021 84.355L63.7959 82.6469C63.3527 81.3918 62.0031 80.3754 60.7785 80.3754H42.4062C49.4087 77.9594 54.1318 72.8964 57.3094 67.0291C70.6178 66.615 76.3466 56.4806 78.5798 50.3725C79.2647 48.4997 79.107 46.525 78.145 44.9583ZM74.4251 48.5334C72.3962 54.0863 68.2038 60.573 59.6738 61.8845C61.6036 56.839 62.6459 51.6249 63.2028 47.2618H73.361C73.947 47.2618 74.2999 47.4963 74.4342 47.7192C74.5535 47.9136 74.5504 48.1867 74.4251 48.5334Z"
+                            fill="#FCA311"></path>
+                        <path
+                            d="M31.7026 34.6498C32.0184 35.0495 32.4613 35.2535 32.9017 35.2535C33.2721 35.2535 33.6422 35.1121 33.9386 34.8273C34.6005 34.1965 34.6735 33.0934 34.0982 32.3649C34.0611 32.3126 29.8593 26.845 32.5597 23.1041C36.1602 18.1133 33.967 14.0384 32.3033 12.5824C31.6211 11.9819 30.621 12.1057 30.076 12.86C29.5376 13.6098 29.6447 14.6998 30.3181 15.3007C30.7029 15.6629 32.4807 17.5987 30.076 20.9344C25.7415 26.9407 31.4615 34.3378 31.7026 34.6498Z"
+                            fill="#FCA311"></path>
+                        <path
+                            d="M40.1828 3.47195C40.8562 2.8683 40.9633 1.78001 40.4217 1.03121C39.8767 0.276909 38.8794 0.153083 38.1945 0.752604C36.5335 2.20927 34.3403 6.2845 37.9409 11.275C40.6413 15.0162 36.4395 20.4855 36.3986 20.5358C35.827 21.2639 35.8973 22.3673 36.5588 22.9985C36.8583 23.2843 37.2287 23.4247 37.596 23.4247C38.0392 23.4247 38.4821 23.2207 38.7941 22.821C39.039 22.5091 44.7565 15.1119 40.4245 9.10153C38.0168 5.76994 39.7964 3.83173 40.1828 3.47195Z"
+                            fill="#FCA311"></path>
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_8_10">
+                            <rect width="79" height="87" fill="white"></rect>
+                        </clipPath>
+                    </defs>
+                </svg>
+
+                <p class="call-to-action">
+                    <span>Our team is hard at work to bring this page to life.</span><br /><br />
+                    <span>However, in the meantime,</span><br />
+                    <span>If you are interested in any of our services, </span><br />
+                    <span> shoot an email to </span><br />
+                    <span style="font-weight: 700; color: #2673af;">sales(at)pentaqube.com</span><br /><br />
+                    <span>If you are interested in joining us,</span><br />
+                    <span>shoot an email to</span><br />
+                    <span style="font-weight: 700; color: #2673af;">careers(at)pentaqube.com</span>
+                </p>
+            </div>
+            <div class="row">
+                <p class="heading">What we do</p>
+                <p class="sub-heading">Manage frameworks</p>
+                <p class="description">Identifying and finding ways to manage cybersecurity risks is our jam. We use it
+                    as a base to help setup and manage customised frameworks for you.
+                </p>
+                <p class="description">ISO 27001, ISO 27701, ISO 27017, NIST CSF, HITRUST, PCI DSS, ISO 22301 Disaster
+                    Recovery, CCMP etc.
+                </p>
+
+                <p class="sub-heading">Regulatory compliance</p>
+                <p class="description">
+                    We assess organisations for regulatory compliance frameworks and help them implement the same.
+                </p>
+                <p class="description">
+                    India - IT Act, DPDP, RBI, IRDAI, SEBI frameworks
+                    Global - CCPA, HIPAA, GDPR, SAMA and more..
+                </p>
+                <p class="sub-heading">Security testing</p>
+                <p class="description">
+                    We are tinkerers at heart and love to hack stuff.
+                <p class="description">We do IT Infrastructure Testing, Application Security Testing, Red Teaming,
+                    Network Security Assessments, Wi Fi Assessments, Cloud Security Assessments, Code Security Reviews
+                    (SAST / DAST) etc
+                </p>
+                <p class="sub-heading">Trainings</p>
+                <p class="description">
+                    We love to talk about what we know and train others on Risks & Biases Secure Coding, Secure
+                    Development, Threat Modelling, End User Awareness, Phishing, Leadership workshops, crisis
+                    management, business impacts, Cyber Risk Quantification, AI Risk Management, Data Privacy etc.
+                </p>
+            </div>
+        </div>
+
+        <div class="footer-bar">
+            <div class="content-block">
+                <p class="footer-text">© 2023, PentaQube</p>
+                <p class="privacy-link"><a href="privacy.html">Privacy Policy</a></p>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
