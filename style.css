@@ -27,8 +27,7 @@ body {
 }
 
 hr.seperation {
-  border-top: 1px solid#E6E7F3;
-
+  border-top: 1px solid#E5E5E5;
 }
 
 .row {
@@ -42,7 +41,7 @@ hr.seperation {
 .content-1 {
   border: solid;
   border-width: 2px 0;
-  border-color: #E6E7F3;
+  border-color: #E5E5E5;
   padding: 20px;
 
 }
@@ -51,7 +50,7 @@ hr.seperation {
 .footer-bar {
   width: 100%;
   height: 63px;
-  background: #2673af;
+  background: #046E8F;
 }
 
 .header-bar {
@@ -105,14 +104,14 @@ p.call-to-action {
   margin-top: 10px;
   font-size: 25px;
   font-weight: 700;
-  color: #2673af;
+  color: #046E8F;
 }
 
 .row p.sub-heading {
   margin-top: 10px;
   font-size: 20px;
   font-weight: 700;
-  color: #2673af;
+  color: #046E8F;
 }
 
 .row p.description {
@@ -136,7 +135,6 @@ p.call-to-action {
   float: left;
   margin-top: 0px;
   text-decoration: none !important;
-
 }
 
 .privacy-link a {
