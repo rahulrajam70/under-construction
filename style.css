@@ -128,16 +128,17 @@ p.call-to-action {
   margin-top: 0px;
 }
 
-.privacy-link {
+.footer-link {
   color: white;
   text-align: left;
   line-height: 63px;
   float: left;
   margin-top: 0px;
+  padding-right: 5px;
   text-decoration: none !important;
 }
 
-.privacy-link a {
+.footer-link a {
   color: white !important;
   text-decoration: none !important;
 }
